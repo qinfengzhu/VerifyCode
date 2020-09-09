@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "首页";
+}
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>滑块验证码</title>
+    <link href="~/Content/drag.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/jquery-3.3.1.js" type="text/javascript"></script>
+    <script src="~/Scripts/drag.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            /******************************************************
+             * 参数一 验证码图片规格 "300*300", "300*200", "200*100"
+             * 参数二 校验通过时执行的回调函数
+             * 绑定的div width与图片宽一致 height为图片高加34像素
+             ******************************************************/
+            $("#__Verification").slide({
+                imgspec: "200*100",
+                successCallBack: function () {
+                    console.log("%c\u606d\u559c\u4f60\u002c\u6821\u9a8c\u901a\u8fc7\u0021",
+                        'background:rgba(255,249,0,.1);color:#00ff21;font-size:40px;');
+                }
+            });
+        })
+    </script>
+</head>
+<body style="margin:30px auto auto 30px;">
+    <div id="__Verification" style=" width:200px; height:134px;">
+    </div>
+</body>
+</html>

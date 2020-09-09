@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyCode.Core", "VerifyCode.Core\VerifyCode.Core.csproj", "{57649D77-CFF3-4FBF-8C6E-16A5BBE55A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyCodeSlide.Web", "VerifyCodeSlide.Web\VerifyCodeSlide.Web.csproj", "{530B604B-7306-49DB-AFDA-87409435553B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57649D77-CFF3-4FBF-8C6E-16A5BBE55A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57649D77-CFF3-4FBF-8C6E-16A5BBE55A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57649D77-CFF3-4FBF-8C6E-16A5BBE55A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57649D77-CFF3-4FBF-8C6E-16A5BBE55A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530B604B-7306-49DB-AFDA-87409435553B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530B604B-7306-49DB-AFDA-87409435553B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530B604B-7306-49DB-AFDA-87409435553B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530B604B-7306-49DB-AFDA-87409435553B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB3AF4A1-0D5A-4855-8459-C5F8CE6155C2}
+	EndGlobalSection
+EndGlobal
